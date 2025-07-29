@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/shopLogo.png">
+    <script src="https://kit.fontawesome.com/52a42896ee.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section id="login" class="flexRow">
+        <img src="images/loginSideImg.png" class="loginSideImg">
+        <section class="loginFormContainer flexColumn">
+            <h1 class="loginLabel">Login</h1>
+            <form id="loginForm">
+                <div class="loginInputContainer">
+                    <input type="email" name="email" id="loginFormEmail" placeholder="Email" required>
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="loginInputContainer">
+                    <input type="text" name="password" id="loginFormPassword" placeholder="Password" required>
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+                <button type="submit" class="buttonBlack formButton">Login</button>
+            </form>
+        </section>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

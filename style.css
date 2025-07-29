@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Montserrat-Medium;
+    src: url(fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(fonts/Montserrat-Bold.ttf);
+}
+
+.flexRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    border-bottom: 2.5px solid black;
+    padding: 10px 15px;
+    gap: 50px;
+}
+
+.headerLogo {
+    background-color: black;
+    border: transparent;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.headerTopnav {
+    list-style: none;
+}
+
+.headerTopnavLink {
+    font-family: Montserrat-Bold;
+    font-size: 1.125rem;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.headerTopnavLink:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.headerButtonContainer {
+    margin-left: auto;
+    margin-right: 15px;
+    gap: 15px;
+}
+
+#headerButtonLogin {
+    border: 2.5px solid black;
+    border-radius: 10px;
+    font-family: Montserrat-Bold;
+    font-size: 1rem;
+    background-color: white;
+    width: 100px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+#headerButtonLogin:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.buttonBlack {
+    border: 2.5px solid black;
+    border-radius: 10px;
+    font-family: Montserrat-Bold;
+    font-size: 1rem;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.buttonBlack:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.userAvatar {
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+}
+
+.headerUsername {
+    font-family: Montserrat-Bold;
+    font-size: 1rem;
+    padding-top: 15px;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+.headerGuest {
+    border: 2.5px solid black;
+    border-radius: 10px;
+    margin-left: 625px;
+}
+
+#productContainerGuest {
+    margin-left: 75px;
+    margin-top: 50px;
+}
+
+.productContainerLabel {
+    font-family: Montserrat-Bold;
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+
+.productContainerInfo {
+    font-family: Montserrat-Medium;
+    font-size: 1.25rem;
+    padding-bottom: 25px;
+}
+
+#productGridGuest {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 25px;
+}
+
+.product {
+    border: 2.5px solid black;
+    border-radius: 10px;
+    width: 270px;
+    padding: 15px;
+}
+
+.productImg {
+    width: 270px;
+    height: 297.794px;
+    border-radius: 10px;
+}
+
+.productName {
+    font-family: Montserrat-Bold;
+    font-size: 1.25rem;
+    margin-right: 175px;
+}
+
+.productPrice {
+    font-family: Montserrat-Medium;
+    font-size: 1.25rem;
+    color: rgb(250, 175, 100);
+}
+
+.productInfo {
+    font-family: Montserrat-Medium;
+    font-size: 1rem;
+    padding-bottom: 10px;
+}
+
+.buttonWhite {
+    border: 2.5px solid black;
+    border-radius: 10px;
+    font-family: Montserrat-Bold;
+    font-size: 1rem;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.productBuyButton {
+    margin-left: 50px;
+    padding: 10px 25px;
+}
+
+.buttonWhite:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.loginFormContainer {
+    margin-left: 75px;
+    margin-top: 50px;
+}
+
+.loginLabel {
+    font-family: Montserrat-Bold;
+    font-size: 3rem;
+    margin-left: 225px;
+    margin-bottom: 50px;
+}
+
+input[type=text], input[type=email] {
+    border: transparent;
+    width: 300px;
+    max-width: 300px;
+    height: 30px;
+    padding-left: 5px;
+    font-family: Montserrat-Medium;
+    font-size: 1rem;
+}
+
+::placeholder {
+    font-family: Montserrat-Medium;
+    font-size: 1rem;
+}
+
+.loginInputContainer {
+    border: 2.5px solid black;
+    border-radius: 10px;
+    width: 400px;
+    height: 30px;
+    padding: 5px;
+    margin-bottom: 25px;
+    margin-left: 75px;
+}
+
+.loginInputContainer i{
+    width: 30px;
+    height: 30px;
+    margin-left: 50px;
+}
+
+textarea:focus,
+input:focus {
+    outline: none;
+    background: transparent;
+}
+
+.formButton {
+    padding: 15px 50px;
+    margin-left: 220px;
+    margin-top: 25px;
+}
+
+.loginSideImg {
+    height: 100vh;
+    width: 100vh;
+}
+
+.headerAdmin {
+    border: 2.5px solid black;
+    border-radius: 10px;
+    margin-left: 625px;
+}
+
+#headerButtonLogout {
+    border: 2.5px solid black;
+    border-radius: 10px;
+    font-family: Montserrat-Bold;
+    font-size: 1rem;
+    background-color: white;
+    width: 100px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+#headerButtonLogout:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
